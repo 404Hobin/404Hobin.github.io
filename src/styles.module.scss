@@ -26,6 +26,9 @@
             .left {
                 @include media-size(100%, 30%);
                 @include media-text-align();
+                @include if-mobile(){
+                    padding-right: 0%;
+                }
                 padding-right: 8%;
             }
             .right {
@@ -45,7 +48,7 @@
                 }
                 .ImageView {
                     @include size(120px, 80px);
-                    margin: 5px 10px 0 0;
+                    margin: 5px 8px 0 0;
                     border-radius: 5%;
                     box-shadow: 0 1px 3px 0 grey;
                     transition: .3s;

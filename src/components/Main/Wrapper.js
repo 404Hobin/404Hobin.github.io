@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from '../../styles.module.scss';
 import Left from './Left';
 import Right from './Right';
-import FadeIn from '../Scroll/FadeIn';
+
 
 class Main extends Component {
   render() {
@@ -17,7 +17,7 @@ class Main extends Component {
     return (
       <section className={styles.Main}>
         <h2>{data.subject}</h2>
-        <div ref={FadeIn.fadeRef} className={styles.border_top}></div>
+        <div className={styles.border_top}></div>
         <div className={styles.border_bot}></div>
         {tags}
       </section>

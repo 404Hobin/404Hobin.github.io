@@ -10,8 +10,10 @@
         width: 100%;
         }
         width: 33.3333%;
-        h5, li {
-            @include media-text-align();
+        h5 {
+            text-align: center;
+            margin-bottom: 20px;
+            @include font(black, normal, 400, 2.2em);
         }
         div {
             ul {
@@ -20,8 +22,9 @@
                 list-style-type: none;
                 flex-flow: wrap;
                 li {
-                    width: 25%;
-                    @include font(black, normal, 300, 1.6rem);
+                    width: 50%;
+                    text-align: center;
+                    @include font(black, normal, 300, 1.5rem);
                 }
             }
         }

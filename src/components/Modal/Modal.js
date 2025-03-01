@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react';
 import modal from './modal.module.scss';
 
@@ -29,7 +30,7 @@ class Modal extends Component {
         })
         return (
             <div className={modal.Modal} onClick={this.props.close}>
-                <section onClick={(e) => e.stopPropagation()}> {/*모달 영역 클릭시 닫히지않도록 설정*/}
+                <section onClick={(e) => e.stopPropagation()}> {/*모달 영역 클릭시 닫히지 않도록 설정*/}
                     <header>
                         <h5>{this.props.title}</h5>
                         <p>{this.props.subtitle}</p>

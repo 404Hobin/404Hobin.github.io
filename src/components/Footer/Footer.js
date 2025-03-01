@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { Component } from 'react';
 import styles from '../../styles.module.scss';
 import footer from './footer.module.scss';

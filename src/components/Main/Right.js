@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import styles from '../../styles.module.scss';
 import React, { Component } from 'react';
 import Modal from '../Modal/Modal';

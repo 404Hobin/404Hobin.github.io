@@ -5,9 +5,7 @@
         text-align: center;
         img {
             height: 5rem;
-            -webkit-filter: grayscale(100%);
-            opacity: 30%;
-            
+            filter: grayscale(100%);
         }
     }
 } 
